@@ -1,4 +1,10 @@
-# 使用文档
+# 文档
+## 安装
+> 需要依赖clipboard
+```shell
+$ npm install clipboard vue3-json-viewer --save
+```
+## 使用
 ### 预览
 <Json/>
 
