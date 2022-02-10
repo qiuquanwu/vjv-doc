@@ -1,0 +1,18 @@
+{
+  "name": "vjv-doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^0.21.6"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.10",
+    "vue3-json-viewer": "^1.0.5"
+  }
+}
