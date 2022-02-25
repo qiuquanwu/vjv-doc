@@ -36,3 +36,28 @@ const jsonData = reactive(obj);
 import Json from "../comp/Json.vue"
     
 </script>
+
+### TypeScript支持
+
+在项目src目录下创建`vue3-json-viewer.d.ts`
+```typescript
+
+declare module 'vue3-json-viewer' {
+    import { App, Component } from 'vue'
+    interface JsonViewerProps {
+        value: Object | Array<any> | string | number | boolean,
+        expanded: boolean,
+        expandDepth: number,
+        copyable: boolean | object,
+        sort: boolean,
+        boxed: boolean,
+        theme: string,
+        previewMode: boolean,
+        timeformat: (value: any) => string
+    }
+    const JsonViewer: Component<JsonViewerProps>
+    export { JsonViewer }
+    const def: { install: (app: App) => void }
+    export default def
+}
+```
