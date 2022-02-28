@@ -43,7 +43,7 @@ import Json from "../comp/Json.vue"
 ```typescript
 
 declare module 'vue3-json-viewer' {
-    import { App, Component } from 'vue'
+    import { AllowedComponentProps, App, Component, ComponentCustomProps, VNodeProps } from 'vue'
     interface JsonViewerProps {
         value: Object | Array<any> | string | number | boolean;
         expanded: boolean;
@@ -55,9 +55,11 @@ declare module 'vue3-json-viewer' {
         previewMode: boolean;
         timeformat: (value: any) => string
     }
-    const JsonViewer: Component<JsonViewerProps>
+    type JsonViewerType = JsonViewerProps & VNodeProps & AllowedComponentProps & ComponentCustomProps
+    const JsonViewer: Component<JsonViewerType>
     export { JsonViewer }
     const def: { install: (app: App) => void }
     export default def
 }
+
 ```
