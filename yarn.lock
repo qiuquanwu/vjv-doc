@@ -554,6 +554,13 @@ vitepress@^0.21.6:
     vite "^2.7.12"
     vue "^3.2.27"
 
+vue3-json-viewer@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.npmjs.org/vue3-json-viewer/-/vue3-json-viewer-2.2.0.tgz#a648172e567ec2ca2c2b73e9df7f8c8f82015eed"
+  integrity sha512-4a8cOF1e9sWYtFVIzeeLUTLTSlQHKKn+ZA05ZFWVlni6kIn7T+vmpS1d1oma00LMmTUOB3VGOynsRWISVJYH1A==
+  dependencies:
+    clipboard "^2.0.10"
+
 vue@^3.2.27:
   version "3.2.30"
   resolved "https://registry.npmjs.org/vue/-/vue-3.2.30.tgz#47de3039631ac22cab2fd26b427575260199b8bb"
