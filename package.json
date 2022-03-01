@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "clipboard": "^2.0.10",
-    "vue3-json-viewer": "^2.2.0"
+    "vue3-json-viewer": "^2.2.1"
   }
 }
