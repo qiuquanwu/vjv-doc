@@ -1,11 +1,11 @@
 # 文档
 ## 安装
-> 需要依赖clipboard 2.1.0以下版本
+> 2.1.0以下版本需要依赖clipboard 
 ```shell
 $ npm install clipboard vue3-json-viewer --save
 ```
 
-> 最新版本安装不需要依赖 2.1.0以上版本
+> 2.1.0以上版本不需要依赖clipboard 
 ```shell
 $ npm install vue3-json-viewer --save
 ```
