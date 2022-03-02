@@ -20,7 +20,7 @@ let obj = {
   date:new Date(),
   fn:()=>{},
   arr:[1,2,5],
-  reg:/ab+c/i
+  reg:/ab+c/i,
 };
 const jsonData = reactive(obj);
 const keyClick = (keyName)=>{
@@ -31,5 +31,8 @@ const keyClick = (keyName)=>{
 <style>
 .box{
     margin-top: 1rem;
+}
+.box h4{
+    padding:  1rem 0;
 }
 </style>
