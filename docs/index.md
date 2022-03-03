@@ -9,6 +9,8 @@ $ npm install clipboard vue3-json-viewer --save
 ```shell
 $ npm install vue3-json-viewer --save
 ```
+## 要求
+>vue `^3.2.0`
 ## 使用
 ### 预览
 <Json/>
