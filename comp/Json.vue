@@ -1,7 +1,7 @@
 <template>
 <div class="box">
   <h4>普通</h4>
- <JsonViewer :value="jsonData" copyable boxed sort theme="light"  @onKeyClick="keyClick"/>
+ <JsonViewer :value="jsonData"  copyable boxed sort theme="light"  @onKeyClick="keyClick"/>
   <h4>暗黑</h4>
    <JsonViewer :value="jsonData" copyable boxed sort theme="dark"  @onKeyClick="keyClick"/>
 </div>
@@ -15,7 +15,7 @@ import "vue3-json-viewer/dist/index.css";
 import { reactive, ref } from "vue";
 let obj = {
   name: "qiu",//字符串
-  age: 18,//数组
+  age: 19,//数组
   isMan:false,//布尔值
   date:new Date(),
   fn:()=>{},
